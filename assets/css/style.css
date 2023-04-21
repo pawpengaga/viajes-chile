@@ -1,9 +1,9 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
-div, span, section, article, nav, header, footer{
+/* div, span, section, article, nav, header, footer{
     border: 1px solid red;
-}
+} */
 
 /* EL NAVBAR */
 
@@ -29,4 +29,8 @@ div, span, section, article, nav, header, footer{
 #site-content{
     height: 1500px;
     background: black;
+}
+
+.icon-fill{
+    background-color: #0DCAF0;
 }

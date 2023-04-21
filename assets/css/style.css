@@ -1,0 +1,32 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+div, span, section, article, nav, header, footer{
+    border: 1px solid red;
+}
+
+/* EL NAVBAR */
+
+.navbar{
+    transition: background-color 0.5s ease-in-out;
+  }
+
+#menu-item0, #menu-item1, #menu-item2, #menu-item3, #menu-item4{
+    transition: color 0.5s ease-in-out;
+}
+  
+.transparent{
+    background-color: transparent !important;
+  }
+  
+.navbar-scrolled{
+    background-color: white !important;
+    box-shadow: 0px 0px 20px 0px #00000070 !important;
+  }
+
+/************/
+
+#site-content{
+    height: 1500px;
+    background: black;
+}

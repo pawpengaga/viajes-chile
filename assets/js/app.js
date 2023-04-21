@@ -13,6 +13,8 @@ $(document).ready(function () {
         const mItem3 = $('#menu-item3');
         const mItem4 = $('#menu-item4');
 
+        const sanWhite = $('#sandwich-menu');
+
         if ($(window).scrollTop() > 75) {
             navBarAlpha.addClass('navbar-scrolled');
             navBarAlpha.removeClass('transparent');
@@ -29,6 +31,8 @@ $(document).ready(function () {
             mItem3.addClass('text-dark');
             mItem4.addClass('text-dark');
 
+            sanWhite.removeClass('sandich-white');
+
         }else{
             navBarAlpha.removeClass('navbar-scrolled');
             navBarAlpha.addClass('transparent');
@@ -44,6 +48,8 @@ $(document).ready(function () {
             mItem2.removeClass('text-dark');
             mItem3.removeClass('text-dark');
             mItem4.removeClass('text-dark');
+
+            sanWhite.addClass('sandich-white');
         }
     });
 

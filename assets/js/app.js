@@ -1,4 +1,9 @@
+//Activar ToolTips
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+
 $(document).ready(function () {
+    //Efecto de estado para el navbar
     $(window).scroll(function () {
         const navBarAlpha = $('#navbar');
 
@@ -41,4 +46,13 @@ $(document).ready(function () {
             mItem4.removeClass('text-dark');
         }
     });
+
+    //Estilizacion hover para tooltip
+    $(".icon-fill").hover(function () {
+
+        $(".icon-fill").css("user-select", "none");
+        $(".icon-fill").css("cursor", "pointer");
+
+    });
+
 });

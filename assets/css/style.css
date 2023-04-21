@@ -32,10 +32,25 @@ body{
 .icon-fill, .btn-viaje{
     background-color: #0DCAF0;
 }
+
+
 .card{
     height: 23.5em;
     background-color: #0DCAF0;
 }
+
+/******TOOLTIP*****/
+
+.tooltip.bs-tooltip-top, .tooltip-inner{
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+  }
+
+  .tooltip .tooltip-arrow::before {
+    filter: brightness(0) invert(1);
+  }
+
 
 /*******FOOTER*******/
 
